@@ -15,7 +15,7 @@
 
 Prototype | Description
 ---|---
-*MANDATORY PART* | 100/100 |
+*MANDATORY PART* | Mark: 100/100 |
 `int ft_isalpha(int c)` |The `isalpha()` function checks whether a character is an alphabet or not.
 `int ft_isdigit(int c)` |The `isdigit()` function checks whether a character is numeric character (0-9) or not.
 `int ft_isalnum(int c)` |The `isalnum()` function checks whether the argument passed is an alphanumeric character (alphabet or number) or not.
@@ -51,7 +51,7 @@ Prototype | Description
 `void ft_putendl_fd(char *s, int fd)` |The `ft_putendl_fd()` outputs the string ’s’ to the given file descriptor followed by a newline.
 `void ft_putnbr_fd(int n, int fd)` |The `ft_putnbr_fd()` outputs the integer ’n’ to the given file descriptor.
   |  
-*BONUS PART*| 25/25 | 
+*BONUS PART*| Mark: 25/25 | 
 `t_list *ft_lstnew(void *content)` | The `ft_lstnew()` allocates (with `malloc()`) and returns a new node. The member variable ’content’ is initialized with the value of the parameter ’content’. The variable ’next’ is initialized to NULL.
 `void ft_lstadd_front(t_list **lst, t_list *new)` | The `ft_lstadd_front()` adds the node ’new’ at the beginning of the list.
 `int ft_lstsize(t_list *lst)` | The `ft_lstsize()` counts the number of nodes in a list.
